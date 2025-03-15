@@ -1,4 +1,4 @@
-name: Practice project
+name: Practice project - test
 on: [push]
 jobs:
   test:

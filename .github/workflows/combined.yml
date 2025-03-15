@@ -1,4 +1,4 @@
-name: Practice project
+name: Practice project - combined
 on: [push]
 jobs:
   lint:
