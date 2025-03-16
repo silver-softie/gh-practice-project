@@ -6,5 +6,5 @@ jobs:
     steps:
     - name: Output GitHub context
       env:
-        GITHUB_CONTEXT: ${{ toJson(github) }}
+        GITHUB_CONTEXT: ${{ toJSON(github) }}
       run: echo "$GITHUB_CONTEXT"
